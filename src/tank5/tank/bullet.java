@@ -8,7 +8,7 @@ import java.io.Serializable;
 @SuppressWarnings({"all"})
 public class bullet implements Runnable, Serializable {
     private int x;//子弹x坐标
-    private int y;//
+    private int y;//子弹y坐标
     private final int direction;//子弹方向
     private static int speed = 5;//子弹速度
     private boolean loopLive = true;//控制子弹的消亡
